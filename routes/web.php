@@ -15,6 +15,8 @@
 
 
 
+// testing for tayyab bhai
+
 Route::get('/', 'HomeController@index');
 Route::view('/about-us','about-us')->name('about-us');
 Route::view('/terms-conditions','terms')->name('terms');
