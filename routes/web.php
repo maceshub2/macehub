@@ -11,6 +11,10 @@
 |
 */
 
+// testing cubrid_column_names(req_identifier)
+
+
+
 Route::get('/', 'HomeController@index');
 Route::view('/about-us','about-us')->name('about-us');
 Route::view('/terms-conditions','terms')->name('terms');
