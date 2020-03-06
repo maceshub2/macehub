@@ -17,6 +17,8 @@
 
 // testing for tayyab bhai
 
+// testing code chaneg git
+
 Route::get('/', 'HomeController@index');
 Route::view('/about-us','about-us')->name('about-us');
 Route::view('/terms-conditions','terms')->name('terms');
